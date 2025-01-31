@@ -1,5 +1,5 @@
 using ViewModels;
-using CommunityToolkit.Mvvm.ComponentModel;
+
 
 namespace Views;
 
@@ -9,7 +9,7 @@ public partial class CalculatorPage : ContentPage
 	{
 		InitializeComponent();
 
-		this.BindingContext = new CalculaorPageViewModel();
+		this.BindingContext = new CalculatorPageViewModel();
 
     }
 }
